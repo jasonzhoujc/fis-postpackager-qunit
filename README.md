@@ -11,12 +11,10 @@ A test plugin for fis to test js file.
 //file : path/to/project/fis-conf.js
 fis.config.merge({
     modules : {
-        test : {
-            js : 'qunit'
-        }
+        postpackager : 'qunit'
     },
     settings : {
-        test : {
+        postpackager : {
             qunit: {
                 all : ['test/*.html']
             }
