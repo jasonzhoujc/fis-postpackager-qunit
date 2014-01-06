@@ -1,10 +1,10 @@
-# fis-test-qunit
+# fis-postpackager-qunit
 
 A test plugin for fis to test js file.
 
 ## usage
 
-    $ npm install -g fis-test-qunit
+    $ npm install -g fis-postpackager-qunit
     $ vi path/to/project/fis-conf.js
 
 ```javascript
