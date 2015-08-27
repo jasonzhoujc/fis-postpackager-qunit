@@ -22,5 +22,16 @@ fis.config.merge({
     }
 });
 ```
+
+```javascript
+//for fis3
+fis.match('::packager', {
+  postpackager: fis.plugin('qunit', {
+    all: ['test/*.html']
+  })
+});
+```
+
+
 more [options](https://github.com/gruntjs/grunt-contrib-qunit)
 
