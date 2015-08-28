@@ -1,20 +1,31 @@
 {
-    "name" : "fis-postpackager-qunit",
-    "description" : "A test plugin for fis to test js file.",
-    "version" : "0.0.2",
-    "author" : "jason <jason.zhoujc@gmail.com>",
-    "homepage" : "http://fis.baidu.com/",
-    "keywords": [ "fis", "qunit" ],
-    "main" : "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jasonzhoujc/fis-postpackager-qunit"
-    },
-    "engines" : {
-        "node" : ">= 0.8.0"
-    },
-    "dependencies" : {
-        "grunt": "~0.4.1",
-        "grunt-contrib-qunit": "~0.2.0"
-    }
+  "name": "reasy-postpackager-qunit",
+  "description": "A test plugin for reasy to test js file.",
+  "version": "0.0.1",
+  "keywords": [
+    "fis",
+    "reasy",
+    "qunit"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.1.0"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-qunit": "~0.2.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwdgit/fis-postpackager-qunit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lwdgit/fis-postpackager-qunit/issues"
+  },
+  "homepage": "https://github.com/lwdgit/fis-postpackager-qunit#readme",
+  "author": "lwdgit"
 }
