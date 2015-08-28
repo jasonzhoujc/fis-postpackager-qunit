@@ -6,6 +6,7 @@
 'use strict';
 var grunt = require('grunt'),
     projectRoot = process.cwd(),
+    path = require('path'),
     task = grunt.task;
 
 // 覆盖grunt.task.init方法, 去掉的gruntfile文件
