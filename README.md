@@ -1,27 +1,12 @@
-# fis-postpackager-qunit
+# reasy-postpackager-qunit
 
-A test plugin for fis to test js file.
+A test plugin for reasy to test js file.
 
 ## usage
 
-    $ npm install -g fis-postpackager-qunit
+    $ npm install -g reasy-postpackager-qunit
     $ vi path/to/project/fis-conf.js
 
-```javascript
-//file : path/to/project/fis-conf.js
-fis.config.merge({
-    modules : {
-        postpackager : 'qunit'
-    },
-    settings : {
-        postpackager : {
-            qunit: {
-                all : ['test/*.html']
-            }
-        }
-    }
-});
-```
 
 ```javascript
 //for fis3
@@ -31,7 +16,6 @@ fis.match('::packager', {
   })
 });
 ```
-
 
 more [options](https://github.com/gruntjs/grunt-contrib-qunit)
 
